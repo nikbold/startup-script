@@ -26,3 +26,5 @@ webbrowser.open_new(url3)
 # Open Outlook
 import os
 os.startfile("outlook")
+
+## Open Slack
