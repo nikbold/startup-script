@@ -3,7 +3,11 @@
 #### What Script has to do:
 
 ## VPN
-# Connect to Dev VPN
+# Connect to Full-Tunnel VPN
+
+import os
+openvpn =r'"C:\Program Files\OpenVPN\bin\openvpn-gui.exe" --connect Zynstra-Bath-full.ovpn'
+os.system(openvpn)
 
 ## Chrome
 import webbrowser
