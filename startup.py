@@ -25,6 +25,16 @@ webbrowser.open_new(url3)
 # Scrape new emails
 # Open Outlook
 import os
-os.startfile("outlook")
+#os.startfile("outlook")
+import psutil ## https://topic.alibabacloud.com/a/installing-psutil-430-in-windows-10-with-pip_1_15_30862932.html#:~:text=%20Installing%20Psutil%204.3.0%20in%20Windows%2010%20with,use%20CMD%20to%20install%203.5%20psutil%20More%20
 
+def is_outlook_running():
+    for p in psutil.process_iter(attrs=['pid', 'name']):
+        if "OUTLOOK.EXE" in p.info['name']:
+            print("Yes", p.info['name'], "is running")
+            break
+    else:
+        print("No, Outlook is not running")
+        os.startfile("outlook")
+        print("Outlook is starting now...")
 ## Open Slack
