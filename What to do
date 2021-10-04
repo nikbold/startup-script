@@ -27,5 +27,5 @@ https://rundeck.dev.zynstra.com/project/deployments/activity
 import os
 os.startfile("outlook")
 
-
+## Open Slack
 
