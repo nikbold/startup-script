@@ -24,6 +24,9 @@ webbrowser.open_new(url3)
 # Open New Terminal Window
 os.system('wt -p "Ubuntu-18.04"')
 
+## Open VSCode
+os.startfile(r"C:\Users\NB250346\AppData\Local\Programs\Microsoft VS Code\Code.exe")
+
 ## Outlook
 # Scrape new emails
 
