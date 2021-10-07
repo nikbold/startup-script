@@ -21,8 +21,8 @@ webbrowser.open_new(url3)
 
 ## WSL2
 
-# Open New Window
-os.startfile("wsl")
+# Open New Terminal Window
+os.system('wt -p "Ubuntu-18.04"')
 
 ## Outlook
 # Scrape new emails
