@@ -17,7 +17,7 @@ https://git.dev.zynstra.com/users/sign_in # 2fa????
 # Open Rundeck:
 https://rundeck.dev.zynstra.com/project/deployments/activity
 
-## WSL2
+## WSL2 (Windows Terminal)
 
 # Open New Window
 
@@ -32,3 +32,5 @@ os.startfile("outlook")
 ## Open Teams
 
 ## Open MSPaint
+
+## Open VSCode
