@@ -46,3 +46,7 @@ os.startfile(r"\WINDOWS\system32\mspaint.exe")
 
 ## Open VSCode
 os.startfile(r"C:\Users\NB250346\AppData\Local\Programs\Microsoft VS Code\Code.exe")
+
+## RDP to Laptop VM
+rdpLaptop = r'"C:\Users\NB250346\OneDrive - NCR Corporation\Desktop\laptop.rdp"'
+os.system(rdpLaptop)
