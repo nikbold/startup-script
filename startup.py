@@ -44,5 +44,10 @@ os.system(r"C:\Users\NB250346\AppData\Local\Microsoft\Teams\Update.exe --process
 ## Open MSPaint
 os.startfile(r"\WINDOWS\system32\mspaint.exe")
 
+## Open Notepad++
+
+notepadplusplus = r'"C:\Program Files (x86)\Notepad++\notepad++.exe"'
+os.system(notepadplusplus)
+
 ## Open VSCode
 os.startfile(r"C:\Users\NB250346\AppData\Local\Programs\Microsoft VS Code\Code.exe")
