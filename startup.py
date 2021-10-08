@@ -3,6 +3,7 @@
 # Load modules:
 import os
 import webbrowser
+import subprocess
 
 ## VPN
 # Connect to Dev VPN
@@ -21,11 +22,8 @@ webbrowser.open_new(url3)
 
 ## WSL2
 
-# Open New Terminal Window
+# Open New Window
 os.system('wt -p "Ubuntu-18.04"')
-
-## Open VSCode
-os.startfile(r"C:\Users\NB250346\AppData\Local\Programs\Microsoft VS Code\Code.exe")
 
 ## Outlook
 # Scrape new emails
@@ -38,4 +36,13 @@ slack =r'"C:\Users\NB250346\AppData\Local\slack\slack.exe"'
 os.startfile(slack)
 
 ## Open Teams
-os.startfile(r"C:\Users\NB250346\AppData\Local\Microsoft\Teams\current\Teams.exe")
+
+#teams =r'"C:\Users\NB250346\AppData\Local\Microsoft\Teams\Update.exe" --processStart Teams.exe"')
+#os.startfile(r"C:\Users\NB250346\AppData\Local\Microsoft\Teams\current\Teams.exe")
+os.system(r"C:\Users\NB250346\AppData\Local\Microsoft\Teams\Update.exe --processStart 'Teams.exe'")
+
+## Open MSPaint
+os.startfile(r"\WINDOWS\system32\mspaint.exe")
+
+## Open VSCode
+os.startfile(r"C:\Users\NB250346\AppData\Local\Programs\Microsoft VS Code\Code.exe")
