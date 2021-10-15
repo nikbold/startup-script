@@ -15,10 +15,12 @@ url = 'https://github.com/nikbold/' # Open GIT:
 url1 = 'http://192.168.11.10/glpi/' # GLPI
 url2 = 'https://github.com/nikbold?tab=repositories' # Open CI Team Board:
 url3 = 'https://rundeck.dev.zynstra.com/project/deployments/activity' # Open Rundeck:
+url4 = 'https://open.spotify.com/?_ga=2.52563432.1109292248.1634282273-918053379.1631270212' # Open spotify
 webbrowser.open_new(url)
 webbrowser.open_new(url1)
 webbrowser.open_new(url2)
 webbrowser.open_new(url3)
+webbrowser.open_new(url4)
 
 ## WSL2
 
